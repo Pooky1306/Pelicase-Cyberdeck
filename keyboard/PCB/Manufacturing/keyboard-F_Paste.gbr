@@ -1,0 +1,66 @@
+G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,(6.0.4)*
+G04 #@! TF.CreationDate,2023-01-11T07:52:03+01:00*
+G04 #@! TF.ProjectId,keyboard,6b657962-6f61-4726-942e-6b696361645f,rev?*
+G04 #@! TF.SameCoordinates,Original*
+G04 #@! TF.FileFunction,Paste,Top*
+G04 #@! TF.FilePolarity,Positive*
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW (6.0.4)) date 2023-01-11 07:52:03*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+G04 Aperture macros list*
+%AMRoundRect*
+0 Rectangle with rounded corners*
+0 $1 Rounding radius*
+0 $2 $3 $4 $5 $6 $7 $8 $9 X,Y pos of 4 corners*
+0 Add a 4 corners polygon primitive as box body*
+4,1,4,$2,$3,$4,$5,$6,$7,$8,$9,$2,$3,0*
+0 Add four circle primitives for the rounded corners*
+1,1,$1+$1,$2,$3*
+1,1,$1+$1,$4,$5*
+1,1,$1+$1,$6,$7*
+1,1,$1+$1,$8,$9*
+0 Add four rect primitives between the rounded corners*
+20,1,$1+$1,$2,$3,$4,$5,0*
+20,1,$1+$1,$4,$5,$6,$7,0*
+20,1,$1+$1,$6,$7,$8,$9,0*
+20,1,$1+$1,$8,$9,$2,$3,0*%
+%AMRotRect*
+0 Rectangle, with rotation*
+0 The origin of the aperture is its center*
+0 $1 length*
+0 $2 width*
+0 $3 Rotation angle, in degrees counterclockwise*
+0 Add horizontal line*
+21,1,$1,$2,0,0,$3*%
+G04 Aperture macros list end*
+%ADD10RoundRect,0.250000X0.450000X-0.325000X0.450000X0.325000X-0.450000X0.325000X-0.450000X-0.325000X0*%
+%ADD11RoundRect,0.250000X-0.450000X0.325000X-0.450000X-0.325000X0.450000X-0.325000X0.450000X0.325000X0*%
+%ADD12R,1.700000X1.000000*%
+%ADD13RotRect,0.400000X1.900000X315.000000*%
+%ADD14RoundRect,0.250000X-0.325000X-0.450000X0.325000X-0.450000X0.325000X0.450000X-0.325000X0.450000X0*%
+G04 APERTURE END LIST*
+D10*
+X66000000Y-84825000D03*
+X66000000Y-82775000D03*
+D11*
+X70100000Y-89875000D03*
+X70100000Y-91925000D03*
+D12*
+X79050000Y-67400000D03*
+X72750000Y-67400000D03*
+X72750000Y-71200000D03*
+X79050000Y-71200000D03*
+D13*
+X66151472Y-87251472D03*
+X67000000Y-88100000D03*
+X67848528Y-88948528D03*
+D14*
+X85395001Y-68520001D03*
+X87445001Y-68520001D03*
+X107725000Y-68500000D03*
+X109775000Y-68500000D03*
+M02*
